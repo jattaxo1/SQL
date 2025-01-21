@@ -1,5 +1,5 @@
 #This analysis utilized the following Fortune 500 datasheet:
-```
+```sql
 
 CREATE TABLE fortune_companies (
     company_id INTEGER PRIMARY KEY,
