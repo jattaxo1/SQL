@@ -1,4 +1,5 @@
 #This analysis utilized the following Fortune 500 datasheet:
+```
 
 CREATE TABLE fortune_companies (
     company_id INTEGER PRIMARY KEY,
@@ -11,6 +12,7 @@ CREATE TABLE fortune_companies (
     maternity_leave_weeks INTEGER,
     avg_employee_tenure REAL
 );
+```
 
 INSERT INTO fortune_companies (company_name, industry, revenue, employees, healthcare_benefits, paid_time_off_days, maternity_leave_weeks, avg_employee_tenure)
 VALUES
